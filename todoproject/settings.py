@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-q(=#3cxcvhw&28ufks(#dpcs3$q4-k8@63ci_8anc5^hb97r-z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://django-todo-drf-test.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['django-todo-drf-test.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
