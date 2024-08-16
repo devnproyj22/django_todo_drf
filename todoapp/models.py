@@ -20,6 +20,7 @@ class TodoStatusHistory(models.Model):
     new_status = models.BooleanField(default=False)
     changed_at = models.DateTimeField(auto_now_add=True)
 
+
 class TodoComment(models.Model):
     todo = models.ForeignKey(Todo, on_delete=models.CASCADE, related_name='comments')
     text = models.TextField()
